@@ -18,7 +18,7 @@
 
 inline int runTests(int argc, char** argv) {
 #ifdef WITH_TESTS
-	::testing::GTEST_FLAG(filter) = "*KeyDerivation*";
+	//::testing::GTEST_FLAG(filter) = "*KeyDerivation*";
 	::testing::InitGoogleTest(&argc, argv);
 	return RUN_ALL_TESTS();
 #else
